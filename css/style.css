@@ -73,7 +73,7 @@ a {
 }
 
 .futer-menu ul li a:hover,
-.futer-menu ul li.actone {
+.futer-menu ul li.active {
     background: #f8da00;
     background: #00000012;
 }
