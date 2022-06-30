@@ -177,7 +177,23 @@ a {
     font-size: 44px;
     color: #fff;
     font-weight: 600;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+}
+.turon{
+    margin-left: 10px;
+    font-size: 29px;
+    color: #ffc72c;
+    text-transform: uppercase;
+    word-spacing: 15px;
+    letter-spacing: 6px;
+    font-weight: 900;
+}
 
+.turon span{
+    color: #fff;
 }
 
 .menu ul {
@@ -200,7 +216,7 @@ a {
 }
 
 .telfon {
-    margin: 0 72px;
+    margin-left: 50px;
 }
 
 .z-index4 {
@@ -299,4 +315,16 @@ a {
     color: #fff;
     font-weight: 600;
     cursor: pointer;
+}
+.brand{
+    position: absolute;
+    z-index: 9;
+    right: 30px;
+    bottom: 30px;
+}
+.brand a{
+    margin: 0px 10px;
+}
+.brand a i{
+    font-size: 20px;
 }
